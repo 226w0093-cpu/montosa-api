@@ -1,5 +1,5 @@
 <?php
-require_once "../conexion.php";
+require_once "conexion.php";
 
 // Consulta para obtener resumen de estatus
 $sqlEstatus = "SELECT c.nombre_estatus, COUNT(e.id_equipo) as total 
