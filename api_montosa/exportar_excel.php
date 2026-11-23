@@ -1,5 +1,5 @@
 <?php
-include '../conexion.php';
+include 'conexion.php';
 
 // Cabeceras para forzar la descarga en formato Excel (.xls)
 header('Content-Type: application/vnd.ms-excel; charset=utf-8');
